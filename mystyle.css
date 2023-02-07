@@ -1,6 +1,5 @@
 body {
     background: url("myBackground.jpg");
-    background-repeat: no-repeat;
     background-size: 100%;
 }
 
@@ -11,7 +10,9 @@ h1 {
 p, footer {
     color: lightblue;
 }
-
+footer {
+    clear: both;
+}
 #banner {
     width: 76%;
 }
@@ -20,4 +21,3 @@ p, footer {
     width: 76%;
     background-color: #576C75;
 }
-
